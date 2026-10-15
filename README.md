@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SevaSetu AI
 
 AI-powered civic issue detection, prioritisation and resolution tracking — a working prototype built for the
@@ -77,3 +78,6 @@ python scripts/generate_test_report.py   # re-runs and rewrites docs/TEST_REPORT
 - Duplicate detection uses distance, category and time only (no image similarity).
 - Resolution verification is human-confirmed (no computer-vision check).
 - Images are stored on local disk; no production hardening (rate limits, HTTPS, object storage).
+=======
+# SevaSetu-AI
+>>>>>>> origin/main
