@@ -1,0 +1,27 @@
+# environments / secrets
+venv/
+.venv/
+.env
+node_modules/
+frontend/dist/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+test-results.xml
+# user uploads (keep the folder, not the files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+# model weights & training data (large)
+data/ai/
+*.pt
+*.onnx
+ai/models/*
+!ai/models/.gitkeep
+# validation photos you add yourself (keep README/sources/.gitkeep)
+data/validation/*/*
+!data/validation/*/.gitkeep
+# editor / OS
+.vscode/
+.DS_Store
+Thumbs.db

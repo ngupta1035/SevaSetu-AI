@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
+alembic
+psycopg2-binary
+geoalchemy2
+pydantic-settings
+python-jose
+passlib[bcrypt]
+bcrypt==4.0.1
+python-multipart
+pillow
+pytest
+httpx
+email-validator
